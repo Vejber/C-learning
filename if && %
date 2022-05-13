@@ -1,0 +1,7 @@
+void fizzbuzz(int x) {
+    
+    if (x>0 && x%3==0 && x%5==0){printf ("fizzbuzz");}
+    if (x>0 && x%3==0){printf ("fizz");}
+    if (x>0 && x%5==0){printf ("buzz");}
+    if (x<=0){printf ("no");}
+}
